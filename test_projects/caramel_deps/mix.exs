@@ -1,14 +1,13 @@
-defmodule BasicProject.MixProject do
+defmodule CaramelDeps.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :basic_project,
+      app: :caramel_deps,
       version: "0.1.0",
       elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-
       # New items added for Caramel compilation
       compilers: [:caramel | Mix.compilers()],
       erlc_paths: ["src", "gen/src"]
