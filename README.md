@@ -13,7 +13,7 @@ Add `mix_caramel` to your mix project deps:
 # in mix.exs
 def deps do
   [
-    {:mix_caramel, "~> 0.1.0"},
+    {:mix_caramel, "~> 0.2.0"},
   ]
 end
 ```
